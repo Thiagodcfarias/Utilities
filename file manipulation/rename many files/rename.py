@@ -28,5 +28,4 @@ for file in g.glob(old_path + "/*" + extension):
     
     file = file.replace(' ', '')
     
-    print(file)
     os.rename(old_path + original_file,new_path + "/" + file + random_seed + extension)
