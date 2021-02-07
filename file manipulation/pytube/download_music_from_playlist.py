@@ -5,8 +5,6 @@ from moviepy.editor import VideoFileClip
 url = 'https://www.youtube.com/playlist?list=PLt8FmCIXMl280bnpT4VAotkVkcN33R8qL'
 path = 'C:\\Users\\Casa\\.spyder-py3\\'
 
-
-
 playlist = p.Playlist(url)
 
 for video in playlist.videos:
