@@ -21,3 +21,5 @@ for video in playlist.videos:
     audioclip.write_audiofile(mp3_file)
     audioclip.close()
     videoclip.close()
+
+    print('============== Done 100% cabou ================')
