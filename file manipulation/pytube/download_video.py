@@ -8,5 +8,5 @@ nome_arquivo = 'teste'
 youtube = p.YouTube(url)
 
 video = youtube.streams.get_highest_resolution()
-video.download(output_path = path, filename = nome_arquivo)
+video.download(output_path = path, filename = nome_arquivo + '.mp4')
 
